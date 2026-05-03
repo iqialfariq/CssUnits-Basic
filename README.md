@@ -96,10 +96,12 @@ Ada 4 kategori CSS unit yaitu:
   3. **Elemen dekoratif proporsional** → Misalnya lingkaran, kotak, atau ilustrasi yang harus selalu proporsional dengan lebar layar.  
   4. **Desain responsif tanpa media query** → `vw` bisa dipakai untuk membuat elemen otomatis menyesuaikan layar tanpa harus menulis banyak breakpoint.
 
-- **Cara menggunakan**  
-  ```css
-  property-css: "angka"vw;
-   ```
+  - Contoh:
+    ```css
+    h1 {
+         font-size: 2rem; /* 32px */
+       }
+    ```
   
 ## 📐 VH
 - **Definisi**  
@@ -112,10 +114,12 @@ Ada 4 kategori CSS unit yaitu:
   3. **Tipografi responsif berbasis tinggi layar** → Kadang ukuran font ingin menyesuaikan tinggi layar, bukan lebar.  
   4. **Kontainer vertikal fleksibel** → Berguna untuk layout yang harus menyesuaikan tinggi layar tanpa bergantung pada parent.
 
-- **Cara menggunakan**  
-  ```css
-  property-css: "angka"vh;
-   ```
+  - Contoh:
+    ```css
+    h1 {
+         font-size: 2rem; /* 32px */
+       }
+    ```
   
 ## VMIN
 - **Definisi**  
@@ -129,11 +133,12 @@ Ada 4 kategori CSS unit yaitu:
      `vmin` memastikan bentuk tidak meluber di layar lebar.  
   4. **Desain cross-device** → Berguna untuk memastikan elemen tetap proporsional di desktop (landscape) maupun mobile (portrait).
 
-- **Cara menggunakan**  
-  ```css
-  property-css: "angka"vmin;
-
-  ```
+  - Contoh:
+    ```css
+    h1 {
+         font-size: 2rem; /* 32px */
+       }
+    ```
 
 ## VMAX
 - **Definisi**  
@@ -145,11 +150,12 @@ Ada 4 kategori CSS unit yaitu:
   3. **Full-screen layout** → Digunakan untuk section atau container yang harus memenuhi layar dengan mempertimbangkan sisi terbesar.  
   4. **Elemen dekoratif responsif** → Misalnya lingkaran, ilustrasi, atau animasi yang harus tetap besar meski layar berubah orientasi.
 
-- **Cara menggunakan**  
-  ```css
-  property-css: "angka"vmax;
-
-   ```
+  - Contoh:
+    ```css
+    h1 {
+         font-size: 2rem; /* 32px */
+       }
+    ```
 
 ## CALC
 - **Definisi**  
@@ -162,7 +168,9 @@ Ada 4 kategori CSS unit yaitu:
   4. Percentage  
   5. Number  
 
-- **Cara menggunakan**  
-  ```css
-  property: calc("value" "operator" "value");
-   ```
+  - Contoh:
+    ```css
+    h1 {
+         font-size: 2rem; /* 32px */
+       }
+    ```
