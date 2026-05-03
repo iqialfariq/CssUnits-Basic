@@ -4,8 +4,7 @@ CSS Unit adalah satuan ukuran dalam CSS yang dipakai untuk mengatur panjang, leb
 ---
 
 ## 📌 Kategori CSS Unit 📌  
-Ada 4 kategori CSS unit yaitu:  
-**Integer, Number, Percentage, Dimension** 🔢📊📐  
+Ada 4 kategori CSS unit yaitu: 
    - **Integer**: bilangan bulat yang nilainya bisa positif/negatif.  
      Contoh: `1` sampai `999` atau `-999` sampai `-1`  
      ```css
@@ -39,13 +38,13 @@ Ada 4 kategori CSS unit yaitu:
      padding: 2rem;
      ```
 
-     b) **Angle 🔄**  
+     b) **Angle**  
      - Satuan: `deg`, `rad`, `grad`, `turn`  
      ```css
      transform: rotate(45deg);
      ```
 
-     c) **Time ⏱️**  
+     c) **Time**  
      - Satuan: `s` (second), `ms` (millisecond)  
      ```css
      transition: all 0.5s ease;
@@ -84,9 +83,9 @@ Ada 4 kategori CSS unit yaitu:
        }
     ```
 
-## 📌 EM dan REM 📌
+## 📌 ViewPort Unit 📌
 
-## 📐 VW
+## VW
 - **Definisi**  
   Relatif terhadap lebar viewport (jendela browser). `1vw` = 1% dari lebar layar.
 
@@ -101,13 +100,7 @@ Ada 4 kategori CSS unit yaitu:
   ```css
   property-css: "angka"vw;
    ```
-# 📘 CSS Units: VH
-
-## 🎯 Tujuan
-Dokumentasi ini menjelaskan penggunaan unit `vh` (viewport height) untuk desain web yang responsif terhadap tinggi layar.
-
----
-
+  
 ## 📐 VH
 - **Definisi**  
   Relatif terhadap tinggi viewport (jendela browser). `1vh` = 1% dari tinggi layar.
@@ -123,15 +116,8 @@ Dokumentasi ini menjelaskan penggunaan unit `vh` (viewport height) untuk desain 
   ```css
   property-css: "angka"vh;
    ```
-
-# 📘 CSS Units: VMIN
-
-## 🎯 Tujuan
-Dokumentasi ini menjelaskan penggunaan unit `vmin` (viewport minimum) untuk desain web yang proporsional terhadap sisi terkecil layar.
-
----
-
-## 📐 VMIN
+  
+## VMIN
 - **Definisi**  
   Relatif terhadap sisi terkecil dari viewport (lebar atau tinggi jendela browser). `1vmin` = 1% dari sisi terkecil layar.
 
@@ -149,14 +135,7 @@ Dokumentasi ini menjelaskan penggunaan unit `vmin` (viewport minimum) untuk desa
 
   ```
 
-  # 📘 CSS Units: VMAX
-
-## 🎯 Tujuan
-Dokumentasi ini menjelaskan penggunaan unit `vmax` (viewport maximum) untuk desain web yang proporsional terhadap sisi terbesar layar.
-
----
-
-## 📐 VMAX
+## VMAX
 - **Definisi**  
   Relatif terhadap sisi terbesar dari viewport (lebar atau tinggi jendela browser). `1vmax` = 1% dari sisi terbesar layar.
 
@@ -172,14 +151,7 @@ Dokumentasi ini menjelaskan penggunaan unit `vmax` (viewport maximum) untuk desa
 
    ```
 
-  # 📘 CSS Function: CALC
-
-## 🎯 Tujuan
-Dokumentasi ini menjelaskan penggunaan fungsi `calc()` di CSS untuk melakukan operasi matematika pada nilai property.
-
----
-
-## 📐 CALC
+## CALC
 - **Definisi**  
   `calc()` adalah fungsi pada CSS yang memungkinkan kita melakukan operasi matematika atau kalkulasi pada nilai sebuah property.
 
