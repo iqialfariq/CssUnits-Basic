@@ -77,16 +77,9 @@ Ada 4 kategori CSS unit yaitu:
   Adalah unit ukuran relatif di CSS yang ukurannya selalu berdasarkan ukuran font elemen root (biasanya `<html>`), bukan elemen induknya seperti em.  
   Menjadikannya pilihan ideal untuk desain web yang konsisten, dapat diakses, dan responsif karena seluruh skala ukuran dapat diubah dengan satu pengaturan di elemen `<html>`.  
   Cocok untuk tipografi utama (heading, paragraf) agar tidak berubah-ubah meski nested.  
- ```css
-    html {
-      font-size: 16px; /* root font-size */
-    }
-
+  - Contoh:
+    ```css
     h1 {
-      font-size: 2rem; /* 32px */
-    }
-
-    p {
-      font-size: 1rem; /* 16px */
-    }
+         font-size: 2rem; /* 32px */
+       }
     ```
