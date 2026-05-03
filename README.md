@@ -5,8 +5,7 @@ CSS Unit adalah satuan ukuran dalam CSS yang dipakai untuk mengatur panjang, leb
 
 ## 📌 Kategori CSS Unit 📌  
 Ada 4 kategori CSS unit yaitu:  
-
-1. **Integer, Number, Percentage, Dimension** 🔢📊📐  
+**Integer, Number, Percentage, Dimension** 🔢📊📐  
    - **Integer**: bilangan bulat yang nilainya bisa positif/negatif.  
      Contoh: `1` sampai `999` atau `-999` sampai `-1`  
      ```css
@@ -59,3 +58,35 @@ Ada 4 kategori CSS unit yaitu:
        body { font-size: 18px; }
      }
      ```
+
+## 📌 EM dan REM 📌 
+
+- **EM**  
+  Adalah satuan relatif yang ukurannya bergantung pada `font-size` elemen induk.  
+  Nilai `1em` sama dengan ukuran font elemen induk, sehingga sangat berguna untuk desain yang fleksibel dan responsif.  
+  Cocok untuk elemen yang skalanya ingin menyesuaikan font-size parent, misalnya padding tombol yang mengikuti ukuran teks di dalamnya.  
+  - Contoh:
+    ```css
+    button {
+      font-size: 1em;      /* mengikuti parent */
+      padding: 0.5em 1em;  /* padding ikut skala font */
+    }
+    ```
+
+- **REM**  
+  Adalah unit ukuran relatif di CSS yang ukurannya selalu berdasarkan ukuran font elemen root (biasanya `<html>`), bukan elemen induknya seperti em.  
+  Menjadikannya pilihan ideal untuk desain web yang konsisten, dapat diakses, dan responsif karena seluruh skala ukuran dapat diubah dengan satu pengaturan di elemen `<html>`.  
+  Cocok untuk tipografi utama (heading, paragraf) agar tidak berubah-ubah meski nested.  
+ ```css
+    html {
+      font-size: 16px; /* root font-size */
+    }
+
+    h1 {
+      font-size: 2rem; /* 32px */
+    }
+
+    p {
+      font-size: 1rem; /* 16px */
+    }
+    ```
