@@ -98,9 +98,9 @@ Ada 4 kategori CSS unit yaitu:
 
   - Contoh:
     ```css
-    h1 {
-         font-size: 2rem; /* 32px */
-       }
+    .hero {
+     width: 100vw;          /* selalu penuh lebar layar */
+      }
     ```
   
 ## 📐 VH
@@ -116,9 +116,9 @@ Ada 4 kategori CSS unit yaitu:
 
   - Contoh:
     ```css
-    h1 {
-         font-size: 2rem; /* 32px */
-       }
+      .hero {
+        height: 50vh;          /* setengah tinggi layar */
+      }
     ```
   
 ## VMIN
