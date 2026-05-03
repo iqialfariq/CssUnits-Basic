@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  min-height: 100vh;
+  font-size: 1.4em;
+  line-height: 1.6;
+  color: #333;
+  text-align: justify;
+  overflow-x: hidden;
+  margin-bottom: 0;
+}
+
+.container {
+  max-width: 800px;
+  width: calc(100vw - 4em);
+  margin: 0 auto;
+  overflow: visible;
+}
+
+h1 {
+  font-size: calc(6vw + 1.7rem);
+  text-align: center;
+  color: aqua;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  background-size: cover;
+}
+
+.quotes {
+  text-align: center;
+  background-color: salmon;
+  font-style: italic;
+  padding: 2em;
+  margin: 0 calc(-50vw + 50%);
+  font-size: 1rem;
+}

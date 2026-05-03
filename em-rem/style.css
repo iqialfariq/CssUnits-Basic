@@ -1,0 +1,57 @@
+/* html {
+  font-size: 10px;
+} */
+
+.container {
+  width: 1000px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.container .typo {
+  display: flex;
+  gap: 40px;
+  text-align: justify;
+}
+
+.container .typo .col-em {
+  font-size: 10px;
+}
+
+.container .typo .col-em h2 {
+  font-size: 2em;
+}
+
+.container .typo .col-em p {
+  font-size: 1.5em;
+}
+
+.container .typo .col-rem {
+  font-size: 10px;
+}
+
+.container .typo .col-rem h2 {
+  font-size: 2rem;
+}
+
+.container .typo .col-rem h2 {
+  font-size: 1.5rem;
+}
+
+.tombol {
+  text-align: center;
+}
+
+.tombol .btn {
+  display: inline-block;
+  background-color: #333;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1em 3em;
+}
+
+.tombol .btn-sm {
+  font-size: 0.5em;
+}
