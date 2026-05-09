@@ -5,21 +5,24 @@ CSS Unit adalah satuan ukuran dalam CSS yang dipakai untuk mengatur panjang, leb
 ---
 # 📌 Kategori CSS Unit  
 Ada 4 kategori CSS unit yaitu: 
-   - **Integer**: bilangan bulat yang nilainya bisa positif/negatif.  
+   - **Integer**: bilangan bulat yang nilainya bisa positif/negatif.
+     
      Contoh: `1` sampai `999` atau `-999` sampai `-1`  
      ```css
         z-index: 10;
         order: -2;
      ```
 
-   - **Number**: bilangan pecahan yang nilainya di antara 0 dan satu.  
+   - **Number**: bilangan pecahan yang nilainya di antara 0 dan satu.
+     
      Contoh: `0.5`  
      ```css
         opacity: 0.5;
         scale: 1.25;
      ```
 
-   - **Percentage**: mempresentasikan sebagian dari nilai tertentu, dan selalu relatif terhadap nilai yang lain.  
+   - **Percentage**: mempresentasikan sebagian dari nilai tertentu, dan selalu relatif terhadap nilai yang lain.
+     
      Contoh: `80%`  
      ```css
         width: 80%;
@@ -30,8 +33,7 @@ Ada 4 kategori CSS unit yaitu:
      Turunan dimension ada 4 yaitu:  
 
      a ) **Length 📏**  
-     Absolute: `px`, `pt`, `pc`, `cm`, `mm`, `in`  
-     Relative: `%`, `em`, `rem`, `ch`, `vh`, `vw`, `vmin`, `vmax`  
+     Absolute: `px`, `pt`, `pc`, `cm`, `mm`, `in` | Relative: `%`, `em`, `rem`, `ch`, `vh`, `vw`, `vmin`, `vmax`  
      ```css
         font-size: 16px;
         width: 50%;
@@ -64,7 +66,8 @@ Ada 4 kategori CSS unit yaitu:
 - **EM**  
   Adalah satuan relatif yang ukurannya bergantung pada `font-size` elemen induk.  
   Nilai `1em` sama dengan ukuran font elemen induk, sehingga sangat berguna untuk desain yang fleksibel dan responsif.  
-  Cocok untuk elemen yang skalanya ingin menyesuaikan font-size parent, misalnya padding tombol yang mengikuti ukuran teks di dalamnya.  
+  Cocok untuk elemen yang skalanya ingin menyesuaikan font-size parent, misalnya padding tombol yang mengikuti ukuran teks di dalamnya.
+   
   Contoh:
     ```css
        button {
@@ -76,7 +79,8 @@ Ada 4 kategori CSS unit yaitu:
 - **REM**  
   Adalah unit ukuran relatif di CSS yang ukurannya selalu berdasarkan ukuran font elemen root (biasanya `<html>`), bukan elemen induknya seperti em.  
   Menjadikannya pilihan ideal untuk desain web yang konsisten, dapat diakses, dan responsif karena seluruh skala ukuran dapat diubah dengan satu pengaturan di elemen `<html>`.  
-  Cocok untuk tipografi utama (heading, paragraf) agar tidak berubah-ubah meski nested.  
+  Cocok untuk tipografi utama (heading, paragraf) agar tidak berubah-ubah meski nested.
+  
   Contoh:
     ```css
        h1 {
@@ -92,11 +96,10 @@ Ada 4 kategori CSS unit yaitu:
   Relatif terhadap lebar viewport (jendela browser). `1vw` = 1% dari lebar layar.
 
   Kapan digunakan
-  1. Layout penuh layar (fluid layout) → Saat elemen harus menyesuaikan lebar layar otomatis.  
-     Contoh: hero section, background image, atau container utama.  
-  2. Tipografi responsif → Untuk teks besar (judul, banner) yang skalanya mengikuti lebar layar. Cocok agar font tidak terlalu kecil di layar besar.  
-  3. Elemen dekoratif proporsional → Misalnya lingkaran, kotak, atau ilustrasi yang harus selalu proporsional dengan lebar layar.  
-  4. Desain responsif tanpa media query → `vw` bisa dipakai untuk membuat elemen otomatis menyesuaikan layar tanpa harus menulis banyak breakpoint.
+  - Layout penuh layar (fluid layout) → Saat elemen harus menyesuaikan lebar layar otomatis.   
+  - Tipografi responsif → Untuk teks besar (judul, banner) yang skalanya mengikuti lebar layar. Cocok agar font tidak terlalu kecil di layar besar.  
+  - Elemen dekoratif proporsional → Misalnya lingkaran, kotak, atau ilustrasi yang harus selalu proporsional dengan lebar layar.  
+  - Desain responsif tanpa media query → `vw` bisa dipakai untuk membuat elemen otomatis menyesuaikan layar tanpa harus menulis banyak breakpoint.
 
   Contoh:
     ```css
@@ -110,11 +113,10 @@ Ada 4 kategori CSS unit yaitu:
   Relatif terhadap tinggi viewport (jendela browser). `1vh` = 1% dari tinggi layar.
 
   Kapan digunakan
-  1. Layout penuh layar (fullscreen section) → Membuat elemen memenuhi tinggi layar.  
-     Contoh: hero section, splash screen, atau modal.  
-  2. Elemen proporsional terhadap tinggi layar → Cocok untuk desain yang menekankan tinggi daripada lebar, misalnya banner setengah layar.  
-  3. Tipografi responsif berbasis tinggi layar → Kadang ukuran font ingin menyesuaikan tinggi layar, bukan lebar.  
-  4. Kontainer vertikal fleksibel → Berguna untuk layout yang harus menyesuaikan tinggi layar tanpa bergantung pada parent.
+  - Layout penuh layar (fullscreen section) → Membuat elemen memenuhi tinggi layar.   
+  - Elemen proporsional terhadap tinggi layar → Cocok untuk desain yang menekankan tinggi daripada lebar, misalnya banner setengah layar.  
+  - Tipografi responsif berbasis tinggi layar → Kadang ukuran font ingin menyesuaikan tinggi layar, bukan lebar.  
+  - Kontainer vertikal fleksibel → Berguna untuk layout yang harus menyesuaikan tinggi layar tanpa bergantung pada parent.
 
   Contoh:
     ```css
@@ -128,12 +130,11 @@ Ada 4 kategori CSS unit yaitu:
   Relatif terhadap sisi terkecil dari viewport (lebar atau tinggi jendela browser). `1vmin` = 1% dari sisi terkecil layar.
 
   Kapan digunakan
-  1. Elemen proporsional di berbagai orientasi → Elemen tetap seimbang baik di portrait maupun landscape.  
-     Contoh: kotak atau lingkaran yang ukurannya mengikuti sisi terkecil agar tidak terlalu besar.  
-  2. Tipografi responsif yang aman → Teks menyesuaikan layar tapi tidak terlalu besar di layar lebar, karena mengikuti sisi terkecil.  
-  3. Elemen dekoratif atau grafis → Misalnya lingkaran, ikon, atau ilustrasi yang harus selalu proporsional dengan layar.  
+  - Elemen proporsional di berbagai orientasi → Elemen tetap seimbang baik di portrait maupun landscape.   
+  - Tipografi responsif yang aman → Teks menyesuaikan layar tapi tidak terlalu besar di layar lebar, karena mengikuti sisi terkecil.  
+  - Elemen dekoratif atau grafis → Misalnya lingkaran, ikon, atau ilustrasi yang harus selalu proporsional dengan layar.  
      `vmin` memastikan bentuk tidak meluber di layar lebar.  
-  4. Desain cross-device → Berguna untuk memastikan elemen tetap proporsional di desktop (landscape) maupun mobile (portrait).
+  - Desain cross-device → Berguna untuk memastikan elemen tetap proporsional di desktop (landscape) maupun mobile (portrait).
 
   Contoh:
     ```css
@@ -147,10 +148,10 @@ Ada 4 kategori CSS unit yaitu:
   Relatif terhadap sisi terbesar dari viewport (lebar atau tinggi jendela browser). `1vmax` = 1% dari sisi terbesar layar.
 
   Kapan digunakan
-  1. Elemen besar proporsional terhadap layar → Cocok untuk elemen dekoratif, background, atau tipografi yang ingin tetap menonjol di layar besar.  
-  2. Desain mengikuti orientasi layar → Saat portrait, sisi terbesar biasanya tinggi; saat landscape, sisi terbesar biasanya lebar. `vmax` memastikan elemen tetap proporsional terhadap dimensi terbesar.  
-  3. Full-screen layout → Digunakan untuk section atau container yang harus memenuhi layar dengan mempertimbangkan sisi terbesar.  
-  4. Elemen dekoratif responsif → Misalnya lingkaran, ilustrasi, atau animasi yang harus tetap besar meski layar berubah orientasi.
+  - Elemen besar proporsional terhadap layar → Cocok untuk elemen dekoratif, background, atau tipografi yang ingin tetap menonjol di layar besar.  
+  - Desain mengikuti orientasi layar → Saat portrait, sisi terbesar biasanya tinggi; saat landscape, sisi terbesar biasanya lebar. `vmax` memastikan elemen tetap proporsional terhadap dimensi terbesar.  
+  - Full-screen layout → Digunakan untuk section atau container yang harus memenuhi layar dengan mempertimbangkan sisi terbesar.  
+  - Elemen dekoratif responsif → Misalnya lingkaran, ilustrasi, atau animasi yang harus tetap besar meski layar berubah orientasi.
 
   Contoh:
     ```css
@@ -164,11 +165,11 @@ Ada 4 kategori CSS unit yaitu:
   `calc()` adalah fungsi pada CSS yang memungkinkan kita melakukan operasi matematika atau kalkulasi pada nilai sebuah property.
 
   Nilai yang bisa dikelola dengan calc
-  1. Length  
-  2. Angle  
-  3. Time  
-  4. Percentage  
-  5. Number  
+  - Length  
+  - Angle  
+  - Time  
+  - Percentage  
+  - Number  
 
   Contoh:
     ```css
