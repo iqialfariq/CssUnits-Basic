@@ -30,8 +30,8 @@ Ada 4 kategori CSS unit yaitu:
      Turunan dimension ada 4 yaitu:  
 
      a ) **Length 📏**  
-     - Absolute: `px`, `pt`, `pc`, `cm`, `mm`, `in`  
-     - Relative: `%`, `em`, `rem`, `ch`, `vh`, `vw`, `vmin`, `vmax`  
+     Absolute: `px`, `pt`, `pc`, `cm`, `mm`, `in`  
+     Relative: `%`, `em`, `rem`, `ch`, `vh`, `vw`, `vmin`, `vmax`  
      ```css
         font-size: 16px;
         width: 50%;
@@ -39,19 +39,19 @@ Ada 4 kategori CSS unit yaitu:
      ```
 
      b ) **Angle**  
-     - Satuan: `deg`, `rad`, `grad`, `turn`  
+     Satuan: `deg`, `rad`, `grad`, `turn`  
      ```css
         transform: rotate(45deg);
      ```
 
      c ) **Time**  
-     - Satuan: `s` (second), `ms` (millisecond)  
+     Satuan: `s` (second), `ms` (millisecond)  
      ```css
         transition: all 0.5s ease;
      ```
 
      d ) **Resolution 📸**  
-     - Satuan: `dpi` (dots per inch), `dpcm` (dots per centimeter), `dppx` (dots per pixel)  
+     Satuan: `dpi` (dots per inch), `dpcm` (dots per centimeter), `dppx` (dots per pixel)  
      ```css
         @media (min-resolution: 300dpi) {
            body { font-size: 18px; }
@@ -65,7 +65,7 @@ Ada 4 kategori CSS unit yaitu:
   Adalah satuan relatif yang ukurannya bergantung pada `font-size` elemen induk.  
   Nilai `1em` sama dengan ukuran font elemen induk, sehingga sangat berguna untuk desain yang fleksibel dan responsif.  
   Cocok untuk elemen yang skalanya ingin menyesuaikan font-size parent, misalnya padding tombol yang mengikuti ukuran teks di dalamnya.  
-  - Contoh:
+  Contoh:
     ```css
        button {
           font-size: 1em;      /* mengikuti parent */
@@ -77,7 +77,7 @@ Ada 4 kategori CSS unit yaitu:
   Adalah unit ukuran relatif di CSS yang ukurannya selalu berdasarkan ukuran font elemen root (biasanya `<html>`), bukan elemen induknya seperti em.  
   Menjadikannya pilihan ideal untuk desain web yang konsisten, dapat diakses, dan responsif karena seluruh skala ukuran dapat diubah dengan satu pengaturan di elemen `<html>`.  
   Cocok untuk tipografi utama (heading, paragraf) agar tidak berubah-ubah meski nested.  
-  - Contoh:
+  Contoh:
     ```css
        h1 {
           font-size: 2rem; /* 32px */
@@ -98,7 +98,7 @@ Ada 4 kategori CSS unit yaitu:
   3. Elemen dekoratif proporsional → Misalnya lingkaran, kotak, atau ilustrasi yang harus selalu proporsional dengan lebar layar.  
   4. Desain responsif tanpa media query → `vw` bisa dipakai untuk membuat elemen otomatis menyesuaikan layar tanpa harus menulis banyak breakpoint.
 
-  - Contoh:
+  Contoh:
     ```css
        .hero {
           width: 100vw;
@@ -116,7 +116,7 @@ Ada 4 kategori CSS unit yaitu:
   3. Tipografi responsif berbasis tinggi layar → Kadang ukuran font ingin menyesuaikan tinggi layar, bukan lebar.  
   4. Kontainer vertikal fleksibel → Berguna untuk layout yang harus menyesuaikan tinggi layar tanpa bergantung pada parent.
 
-  - Contoh:
+  Contoh:
     ```css
        .hero {
           height: 50vh;
@@ -135,7 +135,7 @@ Ada 4 kategori CSS unit yaitu:
      `vmin` memastikan bentuk tidak meluber di layar lebar.  
   4. Desain cross-device → Berguna untuk memastikan elemen tetap proporsional di desktop (landscape) maupun mobile (portrait).
 
-  - Contoh:
+  Contoh:
     ```css
        h1 {
           font-size: 2rem; /* 32px */
@@ -152,7 +152,7 @@ Ada 4 kategori CSS unit yaitu:
   3. Full-screen layout → Digunakan untuk section atau container yang harus memenuhi layar dengan mempertimbangkan sisi terbesar.  
   4. Elemen dekoratif responsif → Misalnya lingkaran, ilustrasi, atau animasi yang harus tetap besar meski layar berubah orientasi.
 
-  - Contoh:
+  Contoh:
     ```css
        h1 {
           font-size: 2rem; /* 32px */
@@ -170,7 +170,7 @@ Ada 4 kategori CSS unit yaitu:
   4. Percentage  
   5. Number  
 
-  - Contoh:
+  Contoh:
     ```css
        h1 {
           font-size: 2rem; /* 32px */
