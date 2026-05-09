@@ -63,8 +63,9 @@ Ada 4 kategori CSS unit yaitu:
 ---
 ## 📌 EM dan REM
 
-- **EM**  
-  Adalah satuan relatif yang ukurannya bergantung pada `font-size` elemen induk. Nilai `1em` sama dengan ukuran font elemen induk, sehingga sangat berguna untuk desain yang fleksibel dan responsif. Cocok untuk elemen yang skalanya ingin menyesuaikan font-size parent, misalnya padding tombol yang mengikuti ukuran teks di dalamnya.
+- **EM**
+  <p align="justify">  
+  Adalah satuan relatif yang ukurannya bergantung pada `font-size` elemen induk. Nilai `1em` sama dengan ukuran font elemen induk, sehingga sangat berguna untuk desain yang fleksibel dan responsif. Cocok untuk elemen yang skalanya ingin menyesuaikan font-size parent, misalnya padding tombol yang mengikuti ukuran teks di dalamnya. </p>
    
   Contoh:
     ```css
@@ -74,8 +75,9 @@ Ada 4 kategori CSS unit yaitu:
        }
     ```
 
-- **REM**  
-  Adalah unit ukuran relatif di CSS yang ukurannya selalu berdasarkan ukuran font elemen root (biasanya `<html>`), bukan elemen induknya seperti em. Menjadikannya pilihan ideal untuk desain web yang konsisten, dapat diakses, dan responsif karena seluruh skala ukuran dapat diubah dengan satu pengaturan di elemen `<html>`. Cocok untuk tipografi utama (heading, paragraf) agar tidak berubah-ubah meski nested.
+- **REM**
+  <p align="justify">
+  Adalah unit ukuran relatif di CSS yang ukurannya selalu berdasarkan ukuran font elemen root (biasanya `<html>`), bukan elemen induknya seperti em. Menjadikannya pilihan ideal untuk desain web yang konsisten, dapat diakses, dan responsif karena seluruh skala ukuran dapat diubah dengan satu pengaturan di elemen `<html>`. Cocok untuk tipografi utama (heading, paragraf) agar tidak berubah-ubah meski nested. </P>
   
   Contoh:
     ```css
