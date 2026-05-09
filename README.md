@@ -1,9 +1,9 @@
-# 💡 Penjelasan CSS Units 💡
-CSS Unit adalah satuan ukuran dalam CSS yang dipakai untuk mengatur panjang, lebar, margin, padding, font-size, dan elemen lain. Ada dua jenis utama: **absolute (tetap) dan relative (menyesuaikan konteks).**. 
+# 🧠 Penjelasan CSS Layouting
+<p align="justify">
+CSS Unit adalah satuan ukuran dalam CSS yang dipakai untuk mengatur panjang, lebar, margin, padding, font-size, dan elemen lain. Ada dua jenis utama: absolute (tetap) dan relative (menyesuaikan konteks).</p> 
 
 ---
-
-## 📌 Kategori CSS Unit 📌  
+# 📌 Kategori CSS Unit  
 Ada 4 kategori CSS unit yaitu: 
    - **Integer**: bilangan bulat yang nilainya bisa positif/negatif.  
      Contoh: `1` sampai `999` atau `-999` sampai `-1`  
@@ -58,7 +58,8 @@ Ada 4 kategori CSS unit yaitu:
         }
      ```
 
-## 📌 EM dan REM 📌 
+---
+## 📌 EM dan REM
 
 - **EM**  
   Adalah satuan relatif yang ukurannya bergantung pada `font-size` elemen induk.  
@@ -82,8 +83,9 @@ Ada 4 kategori CSS unit yaitu:
           font-size: 2rem; /* 32px */
        }
     ```
-
-## 📌 ViewPort Unit 📌
+    
+---
+## 📌 ViewPort Unit
 
 ## VW
 - **Definisi**  
@@ -103,7 +105,7 @@ Ada 4 kategori CSS unit yaitu:
        }
     ```
   
-## 📐 VH
+## VH
 - **Definisi**  
   Relatif terhadap tinggi viewport (jendela browser). `1vh` = 1% dari tinggi layar.
 
