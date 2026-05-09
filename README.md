@@ -77,7 +77,7 @@ Ada 4 kategori CSS unit yaitu:
 
 - **REM**
   <p align="justify">
-  Adalah unit ukuran relatif di CSS yang ukurannya selalu berdasarkan ukuran font elemen root (biasanya `<html>`), bukan elemen induknya seperti em. Menjadikannya pilihan ideal untuk desain web yang konsisten, dapat diakses, dan responsif karena seluruh skala ukuran dapat diubah dengan satu pengaturan di elemen `<html>`. Cocok untuk tipografi utama (heading, paragraf) agar tidak berubah-ubah meski nested. </P>
+  Adalah unit ukuran relatif di CSS yang ukurannya selalu berdasarkan ukuran font elemen root (biasanya), bukan elemen induknya seperti em. Menjadikannya pilihan ideal untuk desain web yang konsisten, dapat diakses, dan responsif karena seluruh skala ukuran dapat diubah dengan satu pengaturan di elemen. Cocok untuk tipografi utama (heading, paragraf) agar tidak berubah-ubah meski nested. </P>
   
   Contoh:
     ```css
