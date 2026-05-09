@@ -65,7 +65,7 @@ Ada 4 kategori CSS unit yaitu:
 
 - **EM**
   <p align="justify">  
-  Adalah satuan relatif yang ukurannya bergantung pada `font-size` elemen induk. Nilai `1em` sama dengan ukuran font elemen induk, sehingga sangat berguna untuk desain yang fleksibel dan responsif. Cocok untuk elemen yang skalanya ingin menyesuaikan font-size parent, misalnya padding tombol yang mengikuti ukuran teks di dalamnya. </p>
+  Adalah satuan relatif yang ukurannya bergantung pada ' font-size ' elemen induk. Nilai ' 1em ' sama dengan ukuran font elemen induk, sehingga sangat berguna untuk desain yang fleksibel dan responsif. Cocok untuk elemen yang skalanya ingin menyesuaikan font-size parent, misalnya padding tombol yang mengikuti ukuran teks di dalamnya. </p>
    
   Contoh:
     ```css
