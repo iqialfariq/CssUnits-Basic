@@ -87,7 +87,7 @@ Ada 4 kategori CSS unit yaitu:
 ---
 ## 📌 ViewPort Unit
 
-## VW
+- **VW**  
 - **Definisi**  
   Relatif terhadap lebar viewport (jendela browser). `1vw` = 1% dari lebar layar.
 
@@ -105,7 +105,7 @@ Ada 4 kategori CSS unit yaitu:
        }
     ```
   
-## VH
+- **VH**  
 - **Definisi**  
   Relatif terhadap tinggi viewport (jendela browser). `1vh` = 1% dari tinggi layar.
 
@@ -123,7 +123,7 @@ Ada 4 kategori CSS unit yaitu:
        }
     ```
   
-## VMIN
+- **VMIN**  
 - **Definisi**  
   Relatif terhadap sisi terkecil dari viewport (lebar atau tinggi jendela browser). `1vmin` = 1% dari sisi terkecil layar.
 
@@ -142,7 +142,7 @@ Ada 4 kategori CSS unit yaitu:
        }
     ```
 
-## VMAX
+- **VMAX**  
 - **Definisi**  
   Relatif terhadap sisi terbesar dari viewport (lebar atau tinggi jendela browser). `1vmax` = 1% dari sisi terbesar layar.
 
@@ -159,7 +159,7 @@ Ada 4 kategori CSS unit yaitu:
        }
     ```
 
-## CALC
+- **CALC**  
 - **Definisi**  
   `calc()` adalah fungsi pada CSS yang memungkinkan kita melakukan operasi matematika atau kalkulasi pada nilai sebuah property.
 
