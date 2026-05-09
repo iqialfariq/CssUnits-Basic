@@ -93,12 +93,10 @@ Ada 4 kategori CSS unit yaitu:
   Definisi relatif terhadap lebar viewport (jendela browser). `1vw` = 1% dari lebar layar.
 
   Kapan digunakan:
-    <p align="justify">
   - Layout penuh layar (fluid layout) → Saat elemen harus menyesuaikan lebar layar otomatis.   
   - Tipografi responsif → Untuk teks besar (judul, banner) yang skalanya mengikuti lebar layar. Cocok agar font tidak terlalu kecil di layar besar.  
   - Elemen dekoratif proporsional → Misalnya lingkaran, kotak, atau ilustrasi yang harus selalu proporsional dengan lebar layar.  
   - Desain responsif tanpa media query → `vw` bisa dipakai untuk membuat elemen otomatis menyesuaikan layar tanpa harus menulis banyak breakpoint.
-    </p>
 
   Contoh:
     ```css
@@ -111,11 +109,10 @@ Ada 4 kategori CSS unit yaitu:
   Definisi relatif terhadap tinggi viewport (jendela browser). `1vh` = 1% dari tinggi layar.
 
   Kapan digunakan:
-    <p align="justify">
   - Layout penuh layar (fullscreen section) → Membuat elemen memenuhi tinggi layar.   
   - Elemen proporsional terhadap tinggi layar → Cocok untuk desain yang menekankan tinggi daripada lebar, misalnya banner setengah layar.  
   - Tipografi responsif berbasis tinggi layar → Kadang ukuran font ingin menyesuaikan tinggi layar, bukan lebar.  
-  - Kontainer vertikal fleksibel → Berguna untuk layout yang harus menyesuaikan tinggi layar tanpa bergantung pada parent. </p>
+  - Kontainer vertikal fleksibel → Berguna untuk layout yang harus menyesuaikan tinggi layar tanpa bergantung pada parent.
 
   Contoh:
     ```css
@@ -128,12 +125,11 @@ Ada 4 kategori CSS unit yaitu:
   Definisi relatif terhadap sisi terkecil dari viewport (lebar atau tinggi jendela browser). `1vmin` = 1% dari sisi terkecil layar.
 
   Kapan digunakan
-    <p align="justify">
   - Elemen proporsional di berbagai orientasi → Elemen tetap seimbang baik di portrait maupun landscape.   
   - Tipografi responsif yang aman → Teks menyesuaikan layar tapi tidak terlalu besar di layar lebar, karena mengikuti sisi terkecil.  
   - Elemen dekoratif atau grafis → Misalnya lingkaran, ikon, atau ilustrasi yang harus selalu proporsional dengan layar.  
      `vmin` memastikan bentuk tidak meluber di layar lebar.  
-  - Desain cross-device → Berguna untuk memastikan elemen tetap proporsional di desktop (landscape) maupun mobile (portrait). </p>
+  - Desain cross-device → Berguna untuk memastikan elemen tetap proporsional di desktop (landscape) maupun mobile (portrait).
 
   Contoh:
     ```css
@@ -146,11 +142,10 @@ Ada 4 kategori CSS unit yaitu:
   Definisi relatif terhadap sisi terbesar dari viewport (lebar atau tinggi jendela browser). `1vmax` = 1% dari sisi terbesar layar.
 
   Kapan digunakan
-    <p align="justify">
   - Elemen besar proporsional terhadap layar → Cocok untuk elemen dekoratif, background, atau tipografi yang ingin tetap menonjol di layar besar.  
   - Desain mengikuti orientasi layar → Saat portrait, sisi terbesar biasanya tinggi; saat landscape, sisi terbesar biasanya lebar. `vmax` memastikan elemen tetap proporsional terhadap dimensi terbesar.  
   - Full-screen layout → Digunakan untuk section atau container yang harus memenuhi layar dengan mempertimbangkan sisi terbesar.  
-  - Elemen dekoratif responsif → Misalnya lingkaran, ilustrasi, atau animasi yang harus tetap besar meski layar berubah orientasi. </p>
+  - Elemen dekoratif responsif → Misalnya lingkaran, ilustrasi, atau animasi yang harus tetap besar meski layar berubah orientasi. 
 
   Contoh:
     ```css
