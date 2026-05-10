@@ -9,7 +9,7 @@ CSS Unit adalah satuan ukuran dalam CSS yang dipakai untuk mengatur panjang, leb
 Ada 4 kategori CSS unit yaitu: 
    - **Integer**: bilangan bulat yang nilainya bisa positif/negatif.
      
-     Contoh: `1` sampai `999` atau `-999` sampai `-1`  
+     Contoh: `1` sampai `999`  |  `-999` sampai `-1`  
      ```css
         z-index: 10;
         order: -2;
@@ -35,7 +35,7 @@ Ada 4 kategori CSS unit yaitu:
      Turunan dimension ada 4 yaitu:  
 
      a ) **Length 📏**  
-     Absolute: `px`, `pt`, `pc`, `cm`, `mm`, `in` | Relative: `%`, `em`, `rem`, `ch`, `vh`, `vw`, `vmin`, `vmax`  
+     Absolute: `px`, `pt`, `pc`, `cm`, `mm`, `in`  |  Relative: `%`, `em`, `rem`, `ch`, `vh`, `vw`, `vmin`, `vmax`  
      ```css
         font-size: 16px;
         width: 50%;
