@@ -64,7 +64,7 @@ Ada 4 kategori CSS unit yaitu:
 
 ---
 
-## 🌐 EM dan REM
+### 🌐 EM dan REM
 
 - **EM**
   <p align="justify">  
@@ -91,7 +91,7 @@ Ada 4 kategori CSS unit yaitu:
     
 ---
 
-## 🪟 ViewPort Unit
+### 🪟 ViewPort Unit
 
 - **VW**  
   Definisi relatif terhadap lebar viewport (jendela browser). `1vw` = 1% dari lebar layar.
