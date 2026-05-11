@@ -104,7 +104,7 @@ Ada 4 kategori CSS unit yaitu:
 
   Contoh:
     ```css
-       .hero {
+       div {
           width: 100vw;
        }
     ```
@@ -120,7 +120,7 @@ Ada 4 kategori CSS unit yaitu:
 
   Contoh:
     ```css
-       .hero {
+       div {
           height: 50vh;
        }
     ```
@@ -137,8 +137,10 @@ Ada 4 kategori CSS unit yaitu:
 
   Contoh:
     ```css
-       h1 {
-          font-size: 2rem; /* 32px */
+       div {
+         width: 50vmin;
+         height: 50vmin;
+         background: tomato;
        }
     ```
 
@@ -153,8 +155,10 @@ Ada 4 kategori CSS unit yaitu:
 
   Contoh:
     ```css
-       h1 {
-          font-size: 2rem; /* 32px */
+       div {
+         width: 50vmax;
+         height: 50vmax;
+         background: salmon;
        }
     ```
 
@@ -169,4 +173,12 @@ Ada 4 kategori CSS unit yaitu:
   - Angle  
   - Time  
   - Percentage  
-  - Number  
+  - Number
+  Contoh:
+    ```css
+       div {
+         width: calc(100% - 50px);
+         height: calc(50vh - 20px);
+         background: orange;
+       }
+    ```  
