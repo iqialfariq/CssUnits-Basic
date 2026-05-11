@@ -158,7 +158,10 @@ Ada 4 kategori CSS unit yaitu:
        }
     ```
 
-- **CALC**  
+---
+
+### 🔢 Calc
+
   Definisi `calc()` adalah fungsi pada CSS yang memungkinkan kita melakukan operasi matematika atau kalkulasi pada nilai sebuah property.
 
   Nilai yang bisa dikelola dengan calc
